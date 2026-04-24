@@ -5,6 +5,8 @@ require_once('inc/connection.php');
 
 // --- Check for modules with alarms on their dashboards ---
 
+echo "---";
+
 $_IS_MOBLE = false;
 
 function isMobileDevice(){

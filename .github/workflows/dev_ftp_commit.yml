@@ -11,7 +11,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: hrdcsaqa.net # ftp server
-          username: ${{ secrets.FTPUSERNAME }} # ftp username
-          password: ${{ secrets.FTPPASSWORD }} # ftp password
+          username: ${{ secrets.DEV_FTP_USERNAME }} # ftp username
+          password: ${{ secrets.DEV_FTP_PASSWORD }} # ftp password
           protocol: ftp # (optional) protocol to deploy with - ftp, ftps, or ftps-legacy
           server-dir: test-push-ftp/ # optional
